@@ -12,7 +12,7 @@ namespace User_Registration
 {
     public partial class Form1 : Form
     {
-        string connectionString = @"Data Source = "
+        string connectionString = @"Data Source = tpisql01.avcol.school.nz; Initial Catalog = UserReigsterationDB SOMSANA; Intergrated Sercurity=True;";
         public Form1()
         {
             InitializeComponent();
@@ -75,7 +75,11 @@ namespace User_Registration
 
         private void label1_Click(object sender, EventArgs e)
         {
+            using (SqlConnection sqlCon = new SqlConnection(ConnectionState String))
+            {
+                sqlCon.Open();
+                sqlCommand sql
 
+            }
         }
     }
-}
