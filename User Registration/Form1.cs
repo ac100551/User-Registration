@@ -78,7 +78,7 @@ namespace User_Registration
             using (SqlConnection sqlCon = new SqlConnection(ConnectionState String))
             {
                 sqlCon.Open();
-                sqlCommand sql
+                sqlCommand sql: hello
 
             }
         }
